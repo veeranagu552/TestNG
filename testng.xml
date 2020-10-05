@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.caseStudy01.tests.Listeners" />
+	</listeners>
+	<test thread-count="5" name="Registration">
+		<classes>
+<!-- 			<class name="com.caseStudy01.tests.RegistrationTests" /> -->
+		</classes>
+	</test>
+	<test thread-count="5" name="Window Handling">
+		<classes>
+<!-- 			<class name="com.caseStudy01.tests.WindowHandlingTests" /> -->
+		</classes>
+	</test>
+	<test thread-count="5" name="Alerts">
+		<classes>
+<!-- 			<class name="com.caseStudy01.tests.AlertsTests" /> -->
+		</classes>
+	</test>
+	<test thread-count="5" name="Frames">
+		<classes>
+<!-- 			<class name="com.caseStudy01.tests.FramesTests" /> -->
+		</classes>
+	</test>
+	<test thread-count="5" name="Date Picker">
+		<classes>
+			<class name="com.caseStudy01.tests.DatePickerTests" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Gillette">
+		<classes>
+<!-- 			<class name="com.caseStudy01.tests.GilletteTests" /> -->
+		</classes>
+	</test>
+	<test thread-count="5" name="Selectable">
+		<classes>
+<!-- 			<class name="com.caseStudy01.tests.SelectableTests" /> -->
+		</classes>
+	</test>
+</suite> <!-- Suite -->
