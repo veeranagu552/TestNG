@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Srilaxmi\Desktop\ProjectBackUp\caseStudy01\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.AlertsTests" class="method navigator-link" hash-for-method="alerTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)">alerTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.DatePickerTests" class="method navigator-link" hash-for-method="dataPickerTest({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That&#039;s it!, titles=SeleniumHQ...)">dataPickerTest({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.FramesTests" class="method navigator-link" hash-for-method="framesTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)">framesTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.GilletteTests" class="method navigator-link" hash-for-method="gilletteInvalidPasswordTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})">gilletteInvalidPasswordTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.GilletteTests" class="method navigator-link" hash-for-method="gillettePositiveTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})">gillettePositiveTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.RegistrationTests" class="method navigator-link" hash-for-method="registrationTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)">registrationTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.SelectableTests" class="method navigator-link" hash-for-method="selectableTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)">selectableTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.caseStudy01.tests.WindowHandlingTests" class="method navigator-link" hash-for-method="windowHandling({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That&#039;s it!, titles=SeleniumHQ...)">windowHandling({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.FramesTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="framesTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)">
+                  </a> <!-- framesTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...) -->
+                  <span class="method-name">framesTest</span>
+                  <span class="parameters">({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=veernag})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.AlertsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alerTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)">
+                  </a> <!-- alerTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...) -->
+                  <span class="method-name">alerTest</span>
+                  <span class="parameters">({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=veernag})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)">
+                  </a> <!-- registrationTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross Browser Testing, country1=India, defaultOption=Extent Reports, lastname=Kandaraboina, country2=Australia, skills=Java, password=Password@123, phone=1234567890, hobbies=Cricket,Hockey,Movies, dob=5-May-96, confirmpassword=Password@123, email=veernag1@email.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.DatePickerTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataPickerTest({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That&#039;s it!, titles=SeleniumHQ...)">
+                  </a> <!-- dataPickerTest({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ...) -->
+                  <span class="method-name">dataPickerTest</span>
+                  <span class="parameters">({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ Browser Automation,Index, dateForEnabled=14/11/1920})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.SelectableTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectableTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)">
+                  </a> <!-- selectableTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...) -->
+                  <span class="method-name">selectableTest</span>
+                  <span class="parameters">({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross Browser Testing, country1=India, defaultOption=Extent Reports, lastname=Kandaraboina, country2=Australia, skills=Java, password=Password@123, phone=1234567890, hobbies=Cricket,Hockey,Movies, dob=5-May-96, confirmpassword=Password@123, email=veernag1@email.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.WindowHandlingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowHandling({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That&#039;s it!, titles=SeleniumHQ...)">
+                  </a> <!-- windowHandling({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ...) -->
+                  <span class="method-name">windowHandling</span>
+                  <span class="parameters">({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ Browser Automation,Index, dateForEnabled=14/11/1920})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.caseStudy01.tests.GilletteTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="gilletteInvalidPasswordTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})">
+                  </a> <!-- gilletteInvalidPasswordTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com}) -->
+                  <span class="method-name">gilletteInvalidPasswordTest</span>
+                  <span class="parameters">({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="gillettePositiveTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})">
+                  </a> <!-- gillettePositiveTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com}) -->
+                  <span class="method-name">gillettePositiveTest</span>
+                  <span class="parameters">({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Srilaxmi\Desktop\ProjectBackUp\caseStudy01\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.caseStudy01.tests.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Registration&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Window Handling&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.WindowHandlingTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Window Handling --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Alerts&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.AlertsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alerts --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Frames&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.FramesTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Frames --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Date Picker&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.DatePickerTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Date Picker --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Gillette&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.GilletteTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Gillette --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Selectable&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.caseStudy01.tests.SelectableTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Selectable --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registration (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Window Handling (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Alerts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Frames (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Date Picker (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Gillette (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Selectable (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'windowHandling')
+data.setCell(0, 2, 'com.caseStudy01.tests.WindowHandlingTests')
+data.setCell(0, 3, 19359);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registrationTest')
+data.setCell(1, 2, 'com.caseStudy01.tests.RegistrationTests')
+data.setCell(1, 3, 9954);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'gilletteInvalidPasswordTest')
+data.setCell(2, 2, 'com.caseStudy01.tests.GilletteTests')
+data.setCell(2, 3, 9186);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dataPickerTest')
+data.setCell(3, 2, 'com.caseStudy01.tests.DatePickerTests')
+data.setCell(3, 3, 6561);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'framesTest')
+data.setCell(4, 2, 'com.caseStudy01.tests.FramesTests')
+data.setCell(4, 3, 2428);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectableTest')
+data.setCell(5, 2, 'com.caseStudy01.tests.SelectableTests')
+data.setCell(5, 3, 1996);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'gillettePositiveTest')
+data.setCell(6, 2, 'com.caseStudy01.tests.GilletteTests')
+data.setCell(6, 3, 1930);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'alerTest')
+data.setCell(7, 2, 'com.caseStudy01.tests.AlertsTests')
+data.setCell(7, 3, 1231);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.RegistrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)</span>
+                <span class="method-start">2749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.WindowHandlingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13511 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">windowHandling({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ...)</span>
+                <span class="method-start">13564 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.AlertsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33453 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">alerTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)</span>
+                <span class="method-start">33494 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.FramesTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35133 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">framesTest({nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=vee...)</span>
+                <span class="method-start">35179 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.DatePickerTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37954 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dataPickerTest({dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ...)</span>
+                <span class="method-start">37999 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.GilletteTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45323 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">gilletteInvalidPasswordTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})</span>
+                <span class="method-start">45368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">gillettePositiveTest({invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com})</span>
+                <span class="method-start">55036 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.caseStudy01.tests.SelectableTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">57413 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">selectableTest({firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross B...)</span>
+                <span class="method-start">57446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59792 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

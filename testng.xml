@@ -11,17 +11,17 @@
 	</test>
 	<test thread-count="5" name="Window Handling">
 		<classes>
-<!-- 			<class name="com.caseStudy01.tests.WindowHandlingTests" /> -->
+			<class name="com.caseStudy01.tests.WindowHandlingTests" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Alerts">
 		<classes>
-<!-- 			<class name="com.caseStudy01.tests.AlertsTests" /> -->
+			<class name="com.caseStudy01.tests.AlertsTests" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Frames">
 		<classes>
-<!-- 			<class name="com.caseStudy01.tests.FramesTests" /> -->
+			<class name="com.caseStudy01.tests.FramesTests" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Date Picker">
@@ -31,12 +31,12 @@
 	</test>
 	<test thread-count="5" name="Gillette">
 		<classes>
-<!-- 			<class name="com.caseStudy01.tests.GilletteTests" /> -->
+			<class name="com.caseStudy01.tests.GilletteTests" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Selectable">
 		<classes>
-<!-- 			<class name="com.caseStudy01.tests.SelectableTests" /> -->
+			<class name="com.caseStudy01.tests.SelectableTests" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->

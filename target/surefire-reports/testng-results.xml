@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-05T13:32:24 IST" name="Suite" finished-at="2020-10-05T13:33:24 IST" duration-ms="59787">
+    <groups>
+    </groups>
+    <test started-at="2020-10-05T13:32:24 IST" name="Registration" finished-at="2020-10-05T13:32:37 IST" duration-ms="13086">
+      <class name="com.caseStudy01.tests.RegistrationTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.RegistrationTests@53a5e217]" started-at="2020-10-05T13:32:24 IST" name="setup" finished-at="2020-10-05T13:32:26 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.RegistrationTests@53a5e217]" started-at="2020-10-05T13:32:27 IST" name="registrationTest" data-provider="registration" finished-at="2020-10-05T13:32:37 IST" duration-ms="9954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross Browser Testing, country1=India, defaultOption=Extent Reports, lastname=Kandaraboina, country2=Australia, skills=Java, password=Password@123, phone=1234567890, hobbies=Cricket,Hockey,Movies, dob=5-May-96, confirmpassword=Password@123, email=veernag1@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+      </class> <!-- com.caseStudy01.tests.RegistrationTests -->
+    </test> <!-- Registration -->
+    <test started-at="2020-10-05T13:32:38 IST" name="Window Handling" finished-at="2020-10-05T13:32:58 IST" duration-ms="19892">
+      <class name="com.caseStudy01.tests.WindowHandlingTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.WindowHandlingTests@45bb2aa1]" started-at="2020-10-05T13:32:38 IST" name="setup" finished-at="2020-10-05T13:32:38 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="windowHandling(java.util.Map)[pri:0, instance:com.caseStudy01.tests.WindowHandlingTests@45bb2aa1]" started-at="2020-10-05T13:32:38 IST" name="windowHandling" data-provider="windowHandling" finished-at="2020-10-05T13:32:57 IST" duration-ms="19359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ Browser Automation,Index, dateForEnabled=14/11/1920}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandling -->
+      </class> <!-- com.caseStudy01.tests.WindowHandlingTests -->
+    </test> <!-- Window Handling -->
+    <test started-at="2020-10-05T13:32:58 IST" name="Alerts" finished-at="2020-10-05T13:32:59 IST" duration-ms="1661">
+      <class name="com.caseStudy01.tests.AlertsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.AlertsTests@2776015d]" started-at="2020-10-05T13:32:58 IST" name="setup" finished-at="2020-10-05T13:32:58 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alerTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.AlertsTests@2776015d]" started-at="2020-10-05T13:32:58 IST" name="alerTest" data-provider="alertsData" finished-at="2020-10-05T13:32:59 IST" duration-ms="1231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=veernag}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerTest -->
+      </class> <!-- com.caseStudy01.tests.AlertsTests -->
+    </test> <!-- Alerts -->
+    <test started-at="2020-10-05T13:32:59 IST" name="Frames" finished-at="2020-10-05T13:33:02 IST" duration-ms="2798">
+      <class name="com.caseStudy01.tests.FramesTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.FramesTests@68b58644]" started-at="2020-10-05T13:32:59 IST" name="setup" finished-at="2020-10-05T13:32:59 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="framesTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.FramesTests@68b58644]" started-at="2020-10-05T13:32:59 IST" name="framesTest" data-provider="framesData" finished-at="2020-10-05T13:33:02 IST" duration-ms="2428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{nestedframetext=nestedframetext, singleframetext=singleframetext, alert2text=cancel, alert3name=veernag}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framesTest -->
+      </class> <!-- com.caseStudy01.tests.FramesTests -->
+    </test> <!-- Frames -->
+    <test started-at="2020-10-05T13:33:02 IST" name="Date Picker" finished-at="2020-10-05T13:33:10 IST" duration-ms="7323">
+      <class name="com.caseStudy01.tests.DatePickerTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.DatePickerTests@42d73c61]" started-at="2020-10-05T13:33:02 IST" name="setup" finished-at="2020-10-05T13:33:02 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dataPickerTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.DatePickerTests@42d73c61]" started-at="2020-10-05T13:33:02 IST" name="dataPickerTest" data-provider="dataPickerData" finished-at="2020-10-05T13:33:09 IST" duration-ms="6561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dateForDisabled=15/01/2022, seleniumText=Selenium automates browsers. That's it!, titles=SeleniumHQ Browser Automation,Index, dateForEnabled=14/11/1920}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPickerTest -->
+      </class> <!-- com.caseStudy01.tests.DatePickerTests -->
+    </test> <!-- Date Picker -->
+    <test started-at="2020-10-05T13:33:10 IST" name="Gillette" finished-at="2020-10-05T13:33:22 IST" duration-ms="12047">
+      <class name="com.caseStudy01.tests.GilletteTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.GilletteTests@37ed010a]" started-at="2020-10-05T13:33:10 IST" name="setup" finished-at="2020-10-05T13:33:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gilletteInvalidPasswordTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.GilletteTests@37ed010a]" started-at="2020-10-05T13:33:10 IST" name="gilletteInvalidPasswordTest" data-provider="gilletteData" finished-at="2020-10-05T13:33:19 IST" duration-ms="9186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gilletteInvalidPasswordTest -->
+        <test-method signature="gillettePositiveTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.GilletteTests@37ed010a]" started-at="2020-10-05T13:33:19 IST" name="gillettePositiveTest" data-provider="gilletteData" finished-at="2020-10-05T13:33:21 IST" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{invalidPassword=1234hk, password=Gillette@123, email=veeranagu553@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gillettePositiveTest -->
+      </class> <!-- com.caseStudy01.tests.GilletteTests -->
+    </test> <!-- Gillette -->
+    <test started-at="2020-10-05T13:33:22 IST" name="Selectable" finished-at="2020-10-05T13:33:24 IST" duration-ms="2370">
+      <class name="com.caseStudy01.tests.SelectableTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.caseStudy01.tests.SelectableTests@51ce6f85]" started-at="2020-10-05T13:33:22 IST" name="setup" finished-at="2020-10-05T13:33:22 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectableTest(java.util.Map)[pri:0, instance:com.caseStudy01.tests.SelectableTests@51ce6f85]" started-at="2020-10-05T13:33:22 IST" name="selectableTest" data-provider="selectableData" finished-at="2020-10-05T13:33:24 IST" duration-ms="1996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=Veeranaga, address=Address, gender=Male, languages=English,Hindi, serializeOption=Cross Browser Testing, country1=India, defaultOption=Extent Reports, lastname=Kandaraboina, country2=Australia, skills=Java, password=Password@123, phone=1234567890, hobbies=Cricket,Hockey,Movies, dob=5-May-96, confirmpassword=Password@123, email=veernag1@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caseStudy01.tests.SelectableTests@51ce6f85]" started-at="2020-10-05T13:33:24 IST" name="tearDown" finished-at="2020-10-05T13:33:25 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.caseStudy01.tests.SelectableTests -->
+    </test> <!-- Selectable -->
+  </suite> <!-- Suite -->
+</testng-results>
