@@ -21,10 +21,19 @@ public class HelperClass {
 	private Actions actions = new Actions(driver);
 	static Logger logger = LogManager.getLogger(HelperClass.class);
 	private Select select;
+	private JavascriptExecutor ex = (JavascriptExecutor) driver;
+	public void flash(WebElement element) {
+		String bgcolor = element.getCssValue("backgroundColor");
+		for(int i=0;i<15;i++) {
+			ex.executeScript("arguments[0].style.backgroundColor ='#F933FF'", element);
+			ex.executeScript("arguments[0].style.backgroundColor ='"+bgcolor+"'", element);
+		}
+	}
 
 	public void dropdownSelectByVisibleText(String text, WebElement webElement) {
 		select = new Select(webElement);
 		try {
+			flash(webElement);
 			select.selectByVisibleText(text);
 		} catch (NoSuchElementException e) {
 			logger.info("Not able to select : " + text);
@@ -36,6 +45,7 @@ public class HelperClass {
 	public void dropdownSelectByIndex(int index, WebElement webElement) {
 		select = new Select(webElement);
 		try {
+			flash(webElement);
 			select.selectByIndex(index);
 		} catch (NoSuchElementException e) {
 			logger.info("Not able to select");
@@ -45,7 +55,7 @@ public class HelperClass {
 	}
 
 	public String getTextFromElement(WebElement element) {
-
+		flash(element);
 		String text = element.getText();
 		logger.info("Extracted text : " + text);
 		return text;
@@ -58,6 +68,7 @@ public class HelperClass {
 
 	public void sendKeys(WebElement element, String keysToSend) {
 		try {
+			flash(element);
 			element.clear();
 			element.sendKeys(keysToSend);
 			logger.debug(keysToSend + " entered");
@@ -72,6 +83,7 @@ public class HelperClass {
 
 	public void clickElement(WebElement element) {
 		wait.until(ExpectedConditions.elementToBeClickable(element));
+		flash(element);
 		element.click();
 		logger.info("Element Clicked");
 	}
@@ -87,6 +99,7 @@ public class HelperClass {
 	}
 
 	public void switchToFrame(WebElement frameElemet) {
+		flash(frameElemet);
 		logger.info("Switching to frame");
 		driver.switchTo().frame(frameElemet);
 	}
@@ -102,6 +115,7 @@ public class HelperClass {
 	}
 
 	public void actionsMoveToElement(WebElement element) {
+		flash(element);
 		actions.moveToElement(element).build().perform();;
 	}
 
@@ -122,10 +136,12 @@ public class HelperClass {
 
 	public void clickElementByXpath(String elementXpath) {
 		WebElement element = findElementByXpath(elementXpath);
+		flash(element);
 		clickElement(element);
 	}
 
 	public void clickElementUsingJavaScriptExecutor(WebElement element) {
+		flash(element);
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", element);
 	}
@@ -138,6 +154,7 @@ public class HelperClass {
 	public void dropdownSelectByVlaue(String text, WebElement webElement) {
 		select = new Select(webElement);
 		try {
+			flash(webElement);
 			select.selectByValue(text);
 		} catch (NoSuchElementException e) {
 			logger.info("Not able to select : " + text);

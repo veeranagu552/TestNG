@@ -6,7 +6,7 @@
 	</listeners>
 	<test thread-count="5" name="Registration">
 		<classes>
-<!-- 			<class name="com.caseStudy01.tests.RegistrationTests" /> -->
+			<class name="com.caseStudy01.tests.RegistrationTests" />
 		</classes>
 	</test>
 	<test thread-count="5" name="Window Handling">
