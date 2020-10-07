@@ -1,6 +1,5 @@
 Reports/
 Log/
-test-output/
 *.xml
 *.class
 !testng.xml
