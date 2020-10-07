@@ -192,4 +192,12 @@ public class HelperClass {
 	public void refreshPageUsingJS() {
 		ex.executeScript("history.go(0)");
 	}
+
+	public void scrollIntoViewUsingJS(WebElement element) {
+		ex.executeScript("argument[0].scroolIntoView(true);", element);
+	}
+
+	public void scrollDownPageToEndUsingJS() {
+		ex.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+	}
 }
