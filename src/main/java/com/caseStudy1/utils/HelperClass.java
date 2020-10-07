@@ -48,7 +48,8 @@ public class HelperClass {
 	}
 
 	public String getTextFromElement(WebElement element) {
-		flash(element);
+		//flash(element);
+		elementBorder(element);
 		String text = element.getText();
 		logger.info("Extracted text : " + text);
 		return text;
@@ -173,5 +174,9 @@ public class HelperClass {
 			ex.executeScript("arguments[0].style.backgroundColor ='#F933FF'", element);
 			ex.executeScript("arguments[0].style.backgroundColor ='" + bgcolor + "'", element);
 		}
+	}
+	
+	public void elementBorder(WebElement element) {
+		ex.executeScript("arguments[0].style.border='3px solid red'", element);
 	}
 }
