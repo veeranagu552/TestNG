@@ -169,7 +169,7 @@ public class HelperClass {
 
 	public void flash(WebElement element) {
 		String bgcolor = element.getCssValue("backgroundColor");
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 5; i++) {
 			ex.executeScript("arguments[0].style.backgroundColor ='#F933FF'", element);
 			ex.executeScript("arguments[0].style.backgroundColor ='" + bgcolor + "'", element);
 		}
