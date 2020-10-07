@@ -33625,3 +33625,549 @@
 22:51:34.973 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
 22:51:35.308 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : Cross Browser Testing
 22:51:35.308 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - Cross Browser Testing with Cross Browser Testing
+23:04:19.037 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.445 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.461 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Registration Page Object
+23:04:22.483 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.483 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Window Handling Page Object
+23:04:22.490 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.490 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Alerts Page Object
+23:04:22.495 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.496 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Frames Object
+23:04:22.500 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.500 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Date Picker Object
+23:04:22.505 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.512 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.513 [main] INFO  com.caseStudy1.pageObjects.SelectablePageObjects - Selectable Page Object
+23:04:22.538 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:22.538 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:04:25.226 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: http://demo.automationtesting.in/Register.html
+23:04:29.691 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Entering Veeranaga in firstname box
+23:04:30.315 [main] DEBUG com.caseStudy1.utils.HelperClass - Veeranaga entered
+23:04:30.315 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Entering Kandaraboina in lastname box
+23:04:30.724 [main] DEBUG com.caseStudy1.utils.HelperClass - Kandaraboina entered
+23:04:30.724 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Entering Address in address box
+23:04:31.111 [main] DEBUG com.caseStudy1.utils.HelperClass - Address entered
+23:04:31.111 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Entering :veernag1@email.com in email box
+23:04:31.478 [main] DEBUG com.caseStudy1.utils.HelperClass - veernag1@email.com entered
+23:04:31.479 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Entering :1234567890 in phone number box
+23:04:31.840 [main] DEBUG com.caseStudy1.utils.HelperClass - 1234567890 entered
+23:04:31.840 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching : Male
+23:04:31.856 [main] DEBUG com.caseStudy1.pageObjects.RegistrationPageObjects - Male found
+23:04:32.039 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:32.039 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Male clicked
+23:04:32.040 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching: Cricket
+23:04:32.050 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Cricket found
+23:04:32.338 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:32.338 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Cricket clicked
+23:04:32.339 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching: Hockey
+23:04:32.348 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Hockey found
+23:04:32.611 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:32.611 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Hockey clicked
+23:04:32.611 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching: Movies
+23:04:32.624 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Movies found
+23:04:32.870 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:32.870 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Movies clicked
+23:04:32.871 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Clicking languages dropdown
+23:04:33.523 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching: English
+23:04:33.533 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - English found
+23:04:33.776 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:33.776 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - English selected
+23:04:33.776 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching: Hindi
+23:04:33.792 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Hindi found
+23:04:34.033 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:34.033 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Hindi selected
+23:04:34.033 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching skill :Java
+23:04:34.836 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Java found
+23:04:35.195 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : Java
+23:04:35.195 [main] DEBUG com.caseStudy1.pageObjects.RegistrationPageObjects - Selecting country :India
+23:04:35.487 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : India
+23:04:35.487 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Clicking select country dropdown
+23:04:35.833 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:35.834 [main] DEBUG com.caseStudy1.pageObjects.RegistrationPageObjects - Selecting :Australia
+23:04:36.006 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:36.007 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - 05 May 1996
+23:04:36.007 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Checking : 5
+23:04:36.032 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - NumberFormatException For input string: " Day "
+23:04:36.042 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - NumberFormatException For input string: "1 "
+23:04:36.348 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - 5 found
+23:04:36.642 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : 5
+23:04:36.642 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching : May
+23:04:36.783 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - May found
+23:04:37.090 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : May
+23:04:37.090 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Searching : 1996
+23:04:38.143 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - 1996 found
+23:04:38.440 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : 1996
+23:04:38.441 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Entering password Password@123
+23:04:38.807 [main] DEBUG com.caseStudy1.utils.HelperClass - Password@123 entered
+23:04:38.807 [main] INFO  com.caseStudy1.pageObjects.RegistrationPageObjects - Confirming password Password@123
+23:04:39.151 [main] DEBUG com.caseStudy1.utils.HelperClass - Password@123 entered
+23:04:39.488 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:40.096 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:40.097 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:04:40.127 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: http://demo.automationtesting.in/Windows.html
+23:04:41.310 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Clicking new tab button
+23:04:42.247 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:42.248 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Asserting text: Selenium automates browsers. That's it!
+23:04:44.572 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : Selenium automates browsers. That's it!
+23:04:44.572 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - Selenium automates browsers. That's it! with Selenium automates browsers. That's it!
+23:04:44.574 [main] INFO  com.caseStudy1.utils.HelperClass - Closing window
+23:04:44.624 [main] INFO  com.caseStudy1.utils.HelperClass - Switched to window: CDwindow-CBB3FC3AB96C23B27848965320742E2E
+23:04:44.625 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Clicking new seperate windows button
+23:04:44.938 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:44.938 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Clicking click button
+23:04:45.298 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:45.299 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Asserting text: Selenium automates browsers. That's it!
+23:04:47.568 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : Selenium automates browsers. That's it!
+23:04:47.568 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - Selenium automates browsers. That's it! with Selenium automates browsers. That's it!
+23:04:47.568 [main] INFO  com.caseStudy1.utils.HelperClass - Closing window
+23:04:47.614 [main] INFO  com.caseStudy1.utils.HelperClass - Switched to window: CDwindow-CBB3FC3AB96C23B27848965320742E2E
+23:04:47.614 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Clicking new seperate multiple windows button
+23:04:47.943 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:47.943 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Clicking click button
+23:04:48.284 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:48.284 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Asserting title SeleniumHQ Browser Automation
+23:04:48.286 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Getting window title
+23:04:48.307 [main] INFO  com.caseStudy1.utils.HelperClass - Switched to window: CDwindow-5FF29A6B22CFAACD435918493ED56B86
+23:04:50.323 [main] INFO  com.caseStudy1.utils.HelperClass - Closing window
+23:04:50.363 [main] INFO  com.caseStudy1.utils.HelperClass - Switched to window: CDwindow-CBB3FC3AB96C23B27848965320742E2E
+23:04:50.363 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - SeleniumHQ Browser Automation with SeleniumHQ Browser Automation
+23:04:50.363 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Asserting title Index
+23:04:50.363 [main] INFO  com.caseStudy1.pageObjects.WindowsPageObjects - Getting window title
+23:04:50.399 [main] INFO  com.caseStudy1.utils.HelperClass - Switched to window: CDwindow-3B44F0A01112253BA0F98EC2051EE5BD
+23:04:58.045 [main] INFO  com.caseStudy1.utils.HelperClass - Closing window
+23:04:58.088 [main] INFO  com.caseStudy1.utils.HelperClass - Switched to window: CDwindow-CBB3FC3AB96C23B27848965320742E2E
+23:04:58.089 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - Index with Index
+23:04:58.511 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:04:58.512 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:04:58.536 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: http://demo.automationtesting.in/Alerts.html
+23:04:59.036 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Clicking Alert1 Box
+23:04:59.428 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:04:59.428 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Accepting alert1
+23:04:59.433 [main] INFO  com.caseStudy1.utils.HelperClass - Alext accpetd
+23:04:59.433 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Clicking alert 2 button
+23:05:00.326 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:00.326 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Clicking alert 2 box
+23:05:00.643 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:00.643 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Dismissing Alert2
+23:05:00.646 [main] INFO  com.caseStudy1.utils.HelperClass - Alext dismissed
+23:05:00.646 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Getting alert2 text
+23:05:00.946 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : You Pressed Cancel
+23:05:00.946 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - You Pressed Cancel with You Pressed Cancel
+23:05:01.295 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:01.638 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:01.638 [main] INFO  com.caseStudy1.pageObjects.AlertsPageObject - Dismissing Alert
+23:05:01.643 [main] INFO  com.caseStudy1.utils.HelperClass - Alext dismissed
+23:05:02.056 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:05:02.057 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:05:02.082 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: http://demo.automationtesting.in/Frames.html
+23:05:02.588 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Switching to frame
+23:05:02.903 [main] INFO  com.caseStudy1.utils.HelperClass - Switching to frame
+23:05:02.931 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Entering singleframetext in text box
+23:05:04.389 [main] DEBUG com.caseStudy1.utils.HelperClass - singleframetext entered
+23:05:04.390 [main] INFO  com.caseStudy1.utils.HelperClass - Switching to default content
+23:05:04.394 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Clicking nested frame button
+23:05:04.730 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:04.730 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Switching to outer frame
+23:05:04.990 [main] INFO  com.caseStudy1.utils.HelperClass - Switching to frame
+23:05:05.015 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Switching to nested frame
+23:05:05.243 [main] INFO  com.caseStudy1.utils.HelperClass - Switching to frame
+23:05:05.269 [main] INFO  com.caseStudy1.pageObjects.FramesPageObject - Entering nestedframetext in text box
+23:05:05.602 [main] DEBUG com.caseStudy1.utils.HelperClass - nestedframetext entered
+23:05:05.602 [main] INFO  com.caseStudy1.utils.HelperClass - Switching to default content
+23:05:05.981 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:05:05.981 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:05:06.008 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: http://demo.automationtesting.in/Datepicker.html
+23:05:11.223 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking date picker
+23:05:11.601 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:11.602 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Selecting date in disabled date picker
+23:05:11.603 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - 15 January 2022
+23:05:11.603 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Future date
+23:05:12.808 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2020
+23:05:12.808 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2020
+23:05:12.808 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:13.118 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:13.354 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2020
+23:05:13.354 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2020
+23:05:13.354 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:13.674 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:13.902 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2020
+23:05:13.902 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2020
+23:05:13.902 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:14.184 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:14.400 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:14.400 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:14.400 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:14.695 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:14.916 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:14.916 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:14.916 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:15.221 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:15.442 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:15.442 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:15.442 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:15.732 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:15.965 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:15.965 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:15.965 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:16.233 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:16.461 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:16.461 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:16.461 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:16.738 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:16.969 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:16.969 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:16.969 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:17.304 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:17.546 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:17.546 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:17.546 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:17.851 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:18.067 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:18.068 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:18.068 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:18.351 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:18.566 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:18.566 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:18.566 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:18.857 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:19.068 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:19.068 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:19.068 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:19.369 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:19.590 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:19.590 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:19.590 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:19.876 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:20.140 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:20.140 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2021
+23:05:20.140 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking next Button
+23:05:20.436 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:20.676 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2022
+23:05:20.676 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked year: 2022
+23:05:20.914 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : January
+23:05:20.914 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checked month : January
+23:05:20.914 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking day : 15
+23:05:20.961 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking date picker
+23:05:21.312 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:21.313 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Selecting date in enabled date picker
+23:05:21.313 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - 14 November 1920
+23:05:21.314 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking 1920 present in the current list
+23:05:21.437 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 
+23:05:21.437 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 
+23:05:21.535 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 
+23:05:21.535 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 
+23:05:21.652 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2011
+23:05:21.652 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2011
+23:05:21.752 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2012
+23:05:21.752 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2012
+23:05:21.842 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2013
+23:05:21.842 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2013
+23:05:21.933 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2014
+23:05:21.933 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2014
+23:05:22.026 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2015
+23:05:22.026 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2015
+23:05:22.121 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2016
+23:05:22.122 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2016
+23:05:22.209 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2017
+23:05:22.209 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2017
+23:05:22.311 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2018
+23:05:22.311 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2018
+23:05:22.442 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2019
+23:05:22.442 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2019
+23:05:22.539 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2020
+23:05:22.539 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2020
+23:05:22.622 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2021
+23:05:22.622 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2021
+23:05:22.712 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2022
+23:05:22.712 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2022
+23:05:22.808 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2023
+23:05:22.808 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2023
+23:05:22.900 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2024
+23:05:22.900 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2024
+23:05:22.998 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2025
+23:05:22.999 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2025
+23:05:23.088 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2026
+23:05:23.089 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2026
+23:05:23.181 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2027
+23:05:23.181 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2027
+23:05:23.268 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2028
+23:05:23.268 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2028
+23:05:23.363 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2029
+23:05:23.363 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2029
+23:05:23.448 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2030
+23:05:23.448 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2030
+23:05:23.536 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:23.536 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:23.537 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Year not found in the current list
+23:05:23.763 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2030
+23:05:23.763 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Past year
+23:05:23.764 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking up button
+23:05:24.049 [main] INFO  com.caseStudy1.utils.HelperClass - Selected option at index: 0
+23:05:24.050 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking 1920 present in the current list
+23:05:24.148 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:24.148 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:24.241 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1990
+23:05:24.242 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1990
+23:05:24.327 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1991
+23:05:24.327 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1991
+23:05:24.409 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1992
+23:05:24.409 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1992
+23:05:24.510 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1993
+23:05:24.510 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1993
+23:05:24.601 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1994
+23:05:24.601 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1994
+23:05:24.707 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1995
+23:05:24.707 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1995
+23:05:24.794 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1996
+23:05:24.794 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1996
+23:05:24.888 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1997
+23:05:24.889 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1997
+23:05:24.980 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1998
+23:05:24.980 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1998
+23:05:25.072 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1999
+23:05:25.072 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1999
+23:05:25.162 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2000
+23:05:25.162 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2000
+23:05:25.249 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2001
+23:05:25.249 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2001
+23:05:25.333 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2002
+23:05:25.333 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2002
+23:05:25.440 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2003
+23:05:25.440 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2003
+23:05:25.539 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2004
+23:05:25.539 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2004
+23:05:25.643 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2005
+23:05:25.643 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2005
+23:05:25.751 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2006
+23:05:25.751 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2006
+23:05:25.854 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2007
+23:05:25.854 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2007
+23:05:25.947 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2008
+23:05:25.947 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2008
+23:05:26.035 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2009
+23:05:26.035 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2009
+23:05:26.123 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2010
+23:05:26.123 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 2010
+23:05:26.207 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:26.207 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:26.207 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Year not found in the current list
+23:05:26.428 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 2010
+23:05:26.428 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Past year
+23:05:26.428 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking up button
+23:05:26.726 [main] INFO  com.caseStudy1.utils.HelperClass - Selected option at index: 0
+23:05:26.726 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking 1920 present in the current list
+23:05:26.823 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:26.823 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:26.930 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1970
+23:05:26.930 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1970
+23:05:27.012 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1971
+23:05:27.012 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1971
+23:05:27.093 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1972
+23:05:27.093 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1972
+23:05:27.181 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1973
+23:05:27.181 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1973
+23:05:27.270 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1974
+23:05:27.270 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1974
+23:05:27.357 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1975
+23:05:27.357 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1975
+23:05:27.445 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1976
+23:05:27.445 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1976
+23:05:27.555 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1977
+23:05:27.555 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1977
+23:05:27.690 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1978
+23:05:27.690 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1978
+23:05:27.786 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1979
+23:05:27.786 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1979
+23:05:27.871 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1980
+23:05:27.871 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1980
+23:05:27.962 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1981
+23:05:27.962 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1981
+23:05:28.057 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1982
+23:05:28.057 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1982
+23:05:28.157 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1983
+23:05:28.157 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1983
+23:05:28.250 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1984
+23:05:28.250 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1984
+23:05:28.344 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1985
+23:05:28.345 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1985
+23:05:28.436 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1986
+23:05:28.436 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1986
+23:05:28.538 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1987
+23:05:28.538 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1987
+23:05:28.641 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1988
+23:05:28.641 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1988
+23:05:28.742 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1989
+23:05:28.742 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1989
+23:05:28.843 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1990
+23:05:28.843 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1990
+23:05:28.947 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:28.947 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:28.947 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Year not found in the current list
+23:05:29.151 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1990
+23:05:29.152 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Past year
+23:05:29.152 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking up button
+23:05:29.539 [main] INFO  com.caseStudy1.utils.HelperClass - Selected option at index: 0
+23:05:29.539 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking 1920 present in the current list
+23:05:29.645 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:29.645 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:29.733 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1950
+23:05:29.733 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1950
+23:05:29.833 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1951
+23:05:29.833 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1951
+23:05:29.920 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1952
+23:05:29.920 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1952
+23:05:30.008 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1953
+23:05:30.008 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1953
+23:05:30.118 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1954
+23:05:30.118 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1954
+23:05:30.247 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1955
+23:05:30.248 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1955
+23:05:30.372 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1956
+23:05:30.372 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1956
+23:05:30.467 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1957
+23:05:30.467 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1957
+23:05:30.560 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1958
+23:05:30.560 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1958
+23:05:30.653 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1959
+23:05:30.653 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1959
+23:05:30.753 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1960
+23:05:30.753 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1960
+23:05:30.852 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1961
+23:05:30.853 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1961
+23:05:30.941 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1962
+23:05:30.941 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1962
+23:05:31.044 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1963
+23:05:31.044 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1963
+23:05:31.149 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1964
+23:05:31.149 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1964
+23:05:31.244 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1965
+23:05:31.244 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1965
+23:05:31.344 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1966
+23:05:31.344 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1966
+23:05:31.454 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1967
+23:05:31.454 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1967
+23:05:31.552 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1968
+23:05:31.553 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1968
+23:05:31.655 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1969
+23:05:31.655 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1969
+23:05:31.772 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1970
+23:05:31.772 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1970
+23:05:31.893 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:31.893 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:31.893 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Year not found in the current list
+23:05:32.126 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1970
+23:05:32.127 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Past year
+23:05:32.127 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking up button
+23:05:32.440 [main] INFO  com.caseStudy1.utils.HelperClass - Selected option at index: 0
+23:05:32.440 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking 1920 present in the current list
+23:05:32.551 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:32.551 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:32.635 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1930
+23:05:32.635 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1930
+23:05:32.719 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1931
+23:05:32.719 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1931
+23:05:32.851 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1932
+23:05:32.852 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1932
+23:05:32.992 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1933
+23:05:32.992 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1933
+23:05:33.091 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1934
+23:05:33.091 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1934
+23:05:33.199 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1935
+23:05:33.199 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1935
+23:05:33.297 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1936
+23:05:33.297 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1936
+23:05:33.397 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1937
+23:05:33.397 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1937
+23:05:33.498 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1938
+23:05:33.498 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1938
+23:05:33.594 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1939
+23:05:33.594 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1939
+23:05:33.702 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1940
+23:05:33.702 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1940
+23:05:33.803 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1941
+23:05:33.803 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1941
+23:05:33.903 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1942
+23:05:33.903 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1942
+23:05:34.008 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1943
+23:05:34.008 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1943
+23:05:34.118 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1944
+23:05:34.118 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1944
+23:05:34.221 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1945
+23:05:34.221 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1945
+23:05:34.320 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1946
+23:05:34.320 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1946
+23:05:34.425 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1947
+23:05:34.425 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1947
+23:05:34.525 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1948
+23:05:34.525 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1948
+23:05:34.646 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1949
+23:05:34.646 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1949
+23:05:34.764 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1950
+23:05:34.764 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1950
+23:05:34.870 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:34.870 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:34.870 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Year not found in the current list
+23:05:35.116 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1950
+23:05:35.116 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Past year
+23:05:35.116 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking up button
+23:05:35.484 [main] INFO  com.caseStudy1.utils.HelperClass - Selected option at index: 0
+23:05:35.485 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking 1920 present in the current list
+23:05:35.580 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text :   ?
+23:05:35.580 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year:   ?
+23:05:35.670 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1910
+23:05:35.670 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1910
+23:05:35.758 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1911
+23:05:35.758 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1911
+23:05:35.846 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1912
+23:05:35.846 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1912
+23:05:35.935 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1913
+23:05:35.935 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1913
+23:05:36.019 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1914
+23:05:36.019 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1914
+23:05:36.096 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1915
+23:05:36.096 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1915
+23:05:36.202 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1916
+23:05:36.202 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1916
+23:05:36.293 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1917
+23:05:36.293 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1917
+23:05:36.397 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1918
+23:05:36.397 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1918
+23:05:36.490 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1919
+23:05:36.490 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1919
+23:05:36.581 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : 1920
+23:05:36.581 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Checking year: 1920
+23:05:36.581 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - 1920 found
+23:05:36.581 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking year 1920
+23:05:36.842 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : 1920
+23:05:36.842 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Selecting month : November
+23:05:37.117 [main] INFO  com.caseStudy1.utils.HelperClass - Selected : November
+23:05:37.117 [main] INFO  com.caseStudy1.pageObjects.DatePickerPageObject - Clicking day : 14
+23:05:37.267 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:37.670 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:05:37.671 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:05:37.696 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - Austri url
+23:05:37.696 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: https://www.gillette.de/login.jsp?returnTo=https%3A%2F%2Fwww.gillette.de%2FaccountHome.account
+23:05:43.645 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - Entering email for austria
+23:05:43.963 [main] DEBUG com.caseStudy1.utils.HelperClass - veeranagu553@gmail.com entered
+23:05:44.336 [main] DEBUG com.caseStudy1.utils.HelperClass - 1234hk entered
+23:05:44.339 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - clicking sign in button -  austria
+23:05:45.613 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:46.034 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - Austri url
+23:05:46.034 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: https://www.gillette.de/login.jsp?returnTo=https%3A%2F%2Fwww.gillette.de%2FaccountHome.account
+23:05:46.619 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - Entering email for austria
+23:05:47.045 [main] DEBUG com.caseStudy1.utils.HelperClass - veeranagu553@gmail.com entered
+23:05:47.400 [main] DEBUG com.caseStudy1.utils.HelperClass - Gillette@123 entered
+23:05:47.404 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - clicking sign in button -  austria
+23:05:48.753 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:48.767 [main] INFO  com.caseStudy1.pageObjects.GilletteSignInPageObjects - log out -  austria
+23:05:49.138 [main] INFO  com.caseStudy1.utils.ConfigFileReader - configFileReader object created
+23:05:49.139 [main] INFO  com.caseStudy1.utils.Base - Starting driver
+23:05:49.171 [main] INFO  com.caseStudy1.utils.HelperClass - Navigating to: http://demo.automationtesting.in/Selectable.html
+23:05:50.496 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:51.107 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : Sakinalium - Extent Reports
+23:05:51.107 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - Extent Reports with Extent Reports
+23:05:52.246 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:52.575 [main] INFO  com.caseStudy1.utils.HelperClass - Element Clicked
+23:05:52.804 [main] INFO  com.caseStudy1.utils.HelperClass - Extracted text : Cross Browser Testing
+23:05:52.804 [main] INFO  com.caseStudy1.utils.HelperClass - Asserting - Cross Browser Testing with Cross Browser Testing

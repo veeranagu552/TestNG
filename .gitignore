@@ -1,0 +1,6 @@
+Reports/
+Log/
+*.xml
+*.class
+!testng.xml
+!pom.xml

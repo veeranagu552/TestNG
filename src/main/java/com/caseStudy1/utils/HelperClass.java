@@ -22,13 +22,6 @@ public class HelperClass {
 	static Logger logger = LogManager.getLogger(HelperClass.class);
 	private Select select;
 	private JavascriptExecutor ex = (JavascriptExecutor) driver;
-	public void flash(WebElement element) {
-		String bgcolor = element.getCssValue("backgroundColor");
-		for(int i=0;i<15;i++) {
-			ex.executeScript("arguments[0].style.backgroundColor ='#F933FF'", element);
-			ex.executeScript("arguments[0].style.backgroundColor ='"+bgcolor+"'", element);
-		}
-	}
 
 	public void dropdownSelectByVisibleText(String text, WebElement webElement) {
 		select = new Select(webElement);
@@ -51,7 +44,7 @@ public class HelperClass {
 			logger.info("Not able to select");
 			return;
 		}
-		logger.info("Selected option at index: "+ index);
+		logger.info("Selected option at index: " + index);
 	}
 
 	public String getTextFromElement(WebElement element) {
@@ -116,7 +109,8 @@ public class HelperClass {
 
 	public void actionsMoveToElement(WebElement element) {
 		flash(element);
-		actions.moveToElement(element).build().perform();;
+		actions.moveToElement(element).build().perform();
+		;
 	}
 
 	public WebElement findElementByXpath(String xpath) {
@@ -142,9 +136,10 @@ public class HelperClass {
 
 	public void clickElementUsingJavaScriptExecutor(WebElement element) {
 		flash(element);
-		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();", element);
 	}
+
 	public void assertStrings(String actual, String expected) {
 		logger.info("Asserting - " + actual + " with " + expected);
 		Assert.assertEquals(actual, expected);
@@ -170,5 +165,13 @@ public class HelperClass {
 
 	public String getTitle() {
 		return driver.getTitle();
+	}
+
+	public void flash(WebElement element) {
+		String bgcolor = element.getCssValue("backgroundColor");
+		for (int i = 0; i < 10; i++) {
+			ex.executeScript("arguments[0].style.backgroundColor ='#F933FF'", element);
+			ex.executeScript("arguments[0].style.backgroundColor ='" + bgcolor + "'", element);
+		}
 	}
 }
