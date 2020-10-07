@@ -48,7 +48,7 @@ public class HelperClass {
 	}
 
 	public String getTextFromElement(WebElement element) {
-		//flash(element);
+		// flash(element);
 		elementBorder(element);
 		String text = element.getText();
 		logger.info("Extracted text : " + text);
@@ -175,13 +175,17 @@ public class HelperClass {
 			ex.executeScript("arguments[0].style.backgroundColor ='" + bgcolor + "'", element);
 		}
 	}
-	
+
 	public void elementBorder(WebElement element) {
 		ex.executeScript("arguments[0].style.border='3px solid red'", element);
 	}
-	
+
 	public String getTitleUsingJS() {
 		String title = ex.executeScript("return document.title;").toString();
 		return title;
+	}
+
+	public void generateAlertUsingJS(String message) {
+		ex.executeScript("alert('" + message + "')");
 	}
 }
