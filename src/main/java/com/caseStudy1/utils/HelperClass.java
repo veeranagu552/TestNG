@@ -179,4 +179,9 @@ public class HelperClass {
 	public void elementBorder(WebElement element) {
 		ex.executeScript("arguments[0].style.border='3px solid red'", element);
 	}
+	
+	public String getTitleUsingJS() {
+		String title = ex.executeScript("return document.title;").toString();
+		return title;
+	}
 }
