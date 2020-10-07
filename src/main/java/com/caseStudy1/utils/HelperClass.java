@@ -188,4 +188,8 @@ public class HelperClass {
 	public void generateAlertUsingJS(String message) {
 		ex.executeScript("alert('" + message + "')");
 	}
+
+	public void refreshPageUsingJS() {
+		ex.executeScript("history.go(0)");
+	}
 }
