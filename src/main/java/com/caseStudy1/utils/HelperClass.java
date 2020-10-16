@@ -28,7 +28,7 @@ public class HelperClass {
 		try {
 			flash(webElement);
 			select.selectByVisibleText(text);
-		} catch (NoSuchElementException e) {
+		} catch (Exception e) {
 			logger.info("Not able to select : " + text);
 			return;
 		}
