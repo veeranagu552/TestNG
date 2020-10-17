@@ -25,7 +25,7 @@ public class Listeners extends Base implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		extentTest.get().log(Status.PASS, "TestCase Passed");
 		String testMethodName = result.getMethod().getMethodName();
-		extentTest.get().addScreenCaptureFromPath(getScreenShotPath(testMethodName,DriverManager.getDriver()), testMethodName);
+		extentTest.get().addScreenCaptureFromPath(getScreenShotPathUsingRobotClass(testMethodName,DriverManager.getDriver()), testMethodName);
 	}
 
 	public void onTestFailure(ITestResult result) {

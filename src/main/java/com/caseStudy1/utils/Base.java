@@ -1,8 +1,16 @@
 package com.caseStudy1.utils;
 
+import java.awt.AWTException;
+import java.awt.HeadlessException;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+import javax.imageio.ImageIO;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -49,7 +57,24 @@ public class Base {
 		return destinationFile; // returning copied file path
 	}
 
-	// data providers
+	public String getScreenShotPathUsingRobotClass(String testCaseName, WebDriver driver) {
+		BufferedImage image = null;
+		String destinationFile = System.getProperty("user.dir") + "\\Reports\\" + testCaseName + ".png";
+		try {
+			image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
+		} catch (HeadlessException e1) {
+			e1.printStackTrace();
+		} catch (AWTException e1) {
+			e1.printStackTrace();
+		}
+
+		try {
+			ImageIO.write(image, "png", new File(destinationFile));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return destinationFile;
+	}
 
 	@DataProvider(name = "alertsData")
 	public Object[][] getAlertsData() {
